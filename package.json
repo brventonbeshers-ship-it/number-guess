@@ -5,10 +5,6 @@
   "description": "On-chain number guessing game on the Stacks blockchain",
   "main": "sdk/dist/index.js",
   "types": "sdk/dist/index.d.ts",
-  "workspaces": [
-    "sdk",
-    "frontend"
-  ],
   "scripts": {
     "build:sdk": "npm --prefix sdk run build",
     "build:frontend": "npm --prefix frontend run build",
