@@ -18,3 +18,4 @@ export function useWallet() {
 // wallet: 1775828293997
 // rep-use-wallet: 1775871948968
 // rep-use-wallet: 1775920708528
+// rep-hooks-wallet: 1775932243303
