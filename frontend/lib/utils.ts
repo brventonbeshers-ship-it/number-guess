@@ -11,3 +11,4 @@ export function clampGuess(value: number): number {
   if (!Number.isFinite(value)) return 1;
   return Math.max(1, Math.min(100, Math.floor(value)));
 }
+// rep-utils-lib: 1775932242968
