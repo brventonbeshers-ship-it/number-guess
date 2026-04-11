@@ -1,0 +1,39 @@
+{
+  "name": "number-guess",
+  "version": "1.0.0",
+  "private": true,
+  "description": "On-chain number guessing game on the Stacks blockchain",
+  "main": "sdk/dist/index.js",
+  "types": "sdk/dist/index.d.ts",
+  "workspaces": [
+    "sdk",
+    "frontend"
+  ],
+  "scripts": {
+    "build:sdk": "npm --prefix sdk run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:sdk && npm run build:frontend",
+    "deploy": "node deploy.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brventonbeshers-ship-it/number-guess"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "number-guess",
+    "guessing-game",
+    "clarity",
+    "smart-contract",
+    "sdk",
+    "web3",
+    "typescript"
+  ],
+  "author": "brventonbeshers-ship-it",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/network": "^7.3.1",
+    "@stacks/transactions": "^7.4.0"
+  }
+}

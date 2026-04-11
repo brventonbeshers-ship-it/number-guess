@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.createGuessCall = exports.getLeaderboard = exports.getUserLastTarget = exports.getUserLastGuess = exports.getUserWins = exports.getUserGuesses = exports.getTotalWins = exports.getTotalGuesses = exports.callReadOnly = exports.NumberGuessClient = exports.DEFAULT_CONFIG = void 0;
+var client_1 = require("./client");
+Object.defineProperty(exports, "DEFAULT_CONFIG", { enumerable: true, get: function () { return client_1.DEFAULT_CONFIG; } });
+Object.defineProperty(exports, "NumberGuessClient", { enumerable: true, get: function () { return client_1.NumberGuessClient; } });
+Object.defineProperty(exports, "callReadOnly", { enumerable: true, get: function () { return client_1.callReadOnly; } });
+Object.defineProperty(exports, "getTotalGuesses", { enumerable: true, get: function () { return client_1.getTotalGuesses; } });
+Object.defineProperty(exports, "getTotalWins", { enumerable: true, get: function () { return client_1.getTotalWins; } });
+Object.defineProperty(exports, "getUserGuesses", { enumerable: true, get: function () { return client_1.getUserGuesses; } });
+Object.defineProperty(exports, "getUserWins", { enumerable: true, get: function () { return client_1.getUserWins; } });
+Object.defineProperty(exports, "getUserLastGuess", { enumerable: true, get: function () { return client_1.getUserLastGuess; } });
+Object.defineProperty(exports, "getUserLastTarget", { enumerable: true, get: function () { return client_1.getUserLastTarget; } });
+Object.defineProperty(exports, "getLeaderboard", { enumerable: true, get: function () { return client_1.getLeaderboard; } });
+Object.defineProperty(exports, "createGuessCall", { enumerable: true, get: function () { return client_1.createGuessCall; } });
