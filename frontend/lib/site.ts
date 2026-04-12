@@ -6,3 +6,4 @@ export const SITE = {
   contract: "SP1Q7YR67R6WGP28NXDJD1WZ11REPAAXRJJ3V6RKM.number-guess",
 } as const;
 export const SITE_KEYWORDS = ["number guess", "prediction game", "stacks game", "on-chain game"] as const;
+// rep-site-lib-metadata: 1775967244879
