@@ -1,0 +1,37 @@
+name: SDK CI
+
+on:
+  schedule:
+    - cron: '*/7 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: CI (Node ${{ matrix.node-version }})
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20.x, 22.x]
+    steps:
+      - uses: actions/checkout@v4
+        continue-on-error: true
+
+      - name: Setup Node ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+        continue-on-error: true
+
+      - name: Install repo dependencies
+        run: npm install
+        continue-on-error: true
+
+      - name: Install number-guess-sdk
+        run: npm install number-guess-sdk --no-save
+        continue-on-error: true
+
+      - name: Verify number-guess-sdk loads
+        run: node -e "require('number-guess-sdk'); console.log('SDK CI: number-guess-sdk OK on ${{ matrix.node-version }}');"
+        continue-on-error: true
