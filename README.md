@@ -31,3 +31,10 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - Frontend runs from `frontend/`
 - App-local SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
