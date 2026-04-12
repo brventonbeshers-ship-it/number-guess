@@ -38,3 +38,4 @@ Main public action:
 ```clar
 (guess u42)
 ```
+<!-- rep-readme-usage: 1775967294606 -->
