@@ -8,3 +8,4 @@ export const SITE = {
 export const SITE_KEYWORDS = ["number guess", "prediction game", "stacks game", "on-chain game"] as const;
 // rep-site-lib-metadata: 1775967244879
 export const SITE_KEYWORDS = ["number guess", "stacks game", "prediction app", "on-chain leaderboard"] as const;
+export const SITE_OG_IMAGE = "/icon.png";
