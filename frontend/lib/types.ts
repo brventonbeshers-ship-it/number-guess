@@ -17,3 +17,4 @@ export interface GameStats {
   lastTarget: number;
   leaderboard: LeaderEntry[];
 }
+// rep-types-lib: 1775967260649
