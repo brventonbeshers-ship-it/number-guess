@@ -7,3 +7,4 @@ export const SITE = {
 } as const;
 export const SITE_KEYWORDS = ["number guess", "prediction game", "stacks game", "on-chain game"] as const;
 // rep-site-lib-metadata: 1776063652981
+export const SITE_OG_IMAGE = "/icon.png";
