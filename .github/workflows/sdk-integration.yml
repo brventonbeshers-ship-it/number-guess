@@ -9,7 +9,6 @@ jobs:
   install-and-verify:
     name: SDK test (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -19,36 +18,29 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-        continue-on-error: true
 
       - name: Create test directory
         run: mkdir -p ${{ runner.temp }}/sdk-integration
-        continue-on-error: true
 
       - name: Init package.json
         working-directory: ${{ runner.temp }}/sdk-integration
         run: npm init -y
-        continue-on-error: true
 
       - name: Install number-guess-sdk
         working-directory: ${{ runner.temp }}/sdk-integration
         run: npm install number-guess-sdk
-        continue-on-error: true
 
       - name: Verify SDK is functional
         working-directory: ${{ runner.temp }}/sdk-integration
         run: node -e "const sdk = require('number-guess-sdk'); console.log('number-guess-sdk loaded on Node ${{ matrix.node-version }}');"
-        continue-on-error: true
 
       - name: Dump package metadata
         working-directory: ${{ runner.temp }}/sdk-integration
         run: node -e "const p = require('number-guess-sdk/package.json'); console.log(JSON.stringify(p, null, 2));"
-        continue-on-error: true
 
   stress-test:
     name: Stress ${{ matrix.n }}
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -58,7 +50,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-        continue-on-error: true
 
       - name: Install and load number-guess-sdk
         run: |
@@ -67,4 +58,3 @@ jobs:
           npm init -y
           npm install number-guess-sdk
           node -e "require('number-guess-sdk'); console.log('Stress ${{ matrix.n }}: success');"
-        continue-on-error: true
