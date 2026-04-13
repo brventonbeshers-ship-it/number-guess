@@ -37,3 +37,4 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - Frontend runs from `frontend/`
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-usage: 1776063515354 -->
