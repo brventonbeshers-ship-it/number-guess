@@ -30,3 +30,6 @@ MIT
 - `getUserLastGuess(address)`
 - `getUserLastTarget(address)`
 - `createGuessCall(value)`
+## Custom Config
+
+Every read-only helper accepts an optional config override with custom contract address, contract name, api base, and network.
