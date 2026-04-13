@@ -240,3 +240,17 @@ button:disabled {
 /* rep-globals-focus: 1775932226233 */
 /* rep-globals-particles: 1776047174706 */
 /* rep-globals-surface: 1776047193617 */
+/* surface sheen */
+.surface-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.surface-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(216,255,243,0.12) 50%, transparent 70%);
+  opacity: 0.45;
+  pointer-events: none;
+}
