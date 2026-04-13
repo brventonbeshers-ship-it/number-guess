@@ -39,3 +39,4 @@ MIT
 - `getUserLastGuess(address)`
 - `getUserLastTarget(address)`
 - `createGuessCall(value)`
+<!-- rep-sdk-readme: 1776084635945 -->
