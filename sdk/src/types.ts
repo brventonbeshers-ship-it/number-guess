@@ -28,3 +28,4 @@ export interface GuessCall {
   postConditions: PostCondition[];
   network: StacksNetwork;
 }
+// rep-sdk-types: 1776116871157
