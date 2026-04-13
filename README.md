@@ -39,3 +39,10 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1776063515354 -->
 <!-- rep-readme-note: 1776084611863 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
