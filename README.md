@@ -38,3 +38,4 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1776063515354 -->
+<!-- rep-readme-note: 1776084611863 -->
