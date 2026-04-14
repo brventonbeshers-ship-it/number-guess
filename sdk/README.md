@@ -41,3 +41,6 @@ MIT
 - `createGuessCall(value)`
 <!-- rep-sdk-readme: 1776084635945 -->
 <!-- rep-sdk-readme: 1776116736556 -->
+## Custom Config
+
+Every read-only helper accepts an optional config override with custom contract address, contract name, api base, and network.
