@@ -56,3 +56,10 @@ Publish from the embedded SDK folder:
 ```powershell
 npm --prefix sdk publish --access public
 ```
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
