@@ -10,3 +10,4 @@ export const SITE_OG_IMAGE = "/icon.png";
 // rep-site-lib-metadata: 1776144410419
 // rep-site-lib: 1776144529377
 export const SITE_KEYWORDS = ["number guess", "stacks game", "prediction app", "on-chain leaderboard"] as const;
+// rep-site-lib-metadata: 1776171372622
