@@ -42,3 +42,17 @@ Remove-Item Env:STACKS_PRIVATE_KEY
 <!-- rep-readme-usage: 1776116722771 -->
 <!-- rep-readme-note: 1776144394697 -->
 <!-- rep-readme-usage: 1776144406233 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
