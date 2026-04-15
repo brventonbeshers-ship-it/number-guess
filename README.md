@@ -119,3 +119,10 @@ npm --prefix sdk publish --access public
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1776248548041 -->
 <!-- rep-readme-note: 1776248552762 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
