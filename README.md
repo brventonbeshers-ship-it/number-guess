@@ -118,3 +118,4 @@ npm --prefix sdk publish --access public
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1776248548041 -->
+<!-- rep-readme-note: 1776248552762 -->
