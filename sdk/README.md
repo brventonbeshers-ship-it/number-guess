@@ -72,3 +72,12 @@ Every read-only helper accepts an optional config override with custom contract 
 - `createGuessCall(value)`
 <!-- rep-sdk-readme: 1776187180960 -->
 <!-- rep-sdk-readme: 1776248390573 -->
+## Core Methods
+
+- `getTotalGuesses()`
+- `getTotalWins()`
+- `getUserGuesses(address)`
+- `getUserWins(address)`
+- `getUserLastGuess(address)`
+- `getUserLastTarget(address)`
+- `createGuessCall(value)`
