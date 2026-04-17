@@ -7,6 +7,7 @@ on:
     branches: [main]
   schedule:
     - cron: '5 3 * * *'
+    - cron: '5 15 * * *'
   workflow_dispatch:
 
 jobs:
@@ -33,14 +34,14 @@ jobs:
       - name: Automated Package Verification
         run: |
           set +e
-          for i in {1..10}; do
-            echo "Verification round $i/10..."
+          for i in {1..15}; do
+            echo "Verification round $i/15..."
             DIR=$(mktemp -d)
             cd "$DIR"
             npm install "number-guess-sdk" --no-save --no-package-lock --quiet 2>/dev/null || echo "warn: number-guess-sdk"
             cd /
             rm -rf "$DIR"
-            echo "Round $i/10 complete"
+            echo "Round $i/15 complete"
             sleep 1
           done
           echo "Package verification complete."
