@@ -209,3 +209,10 @@ npm --prefix sdk publish --access public
 <!-- rep-readme-usage: 1776401724668 -->
 <!-- rep-readme-note: 1776401780309 -->
 <!-- rep-readme-usage: 1776432362301 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
