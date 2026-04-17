@@ -245,3 +245,8 @@ Publish from the embedded SDK folder:
 ```powershell
 npm --prefix sdk publish --access public
 ```
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- Publishable SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
