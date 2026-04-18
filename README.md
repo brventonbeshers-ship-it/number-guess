@@ -282,3 +282,8 @@ Publish from the embedded SDK folder:
 npm --prefix sdk publish --access public
 ```
 <!-- rep-readme-usage: 1776519389307 -->
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- Publishable SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
