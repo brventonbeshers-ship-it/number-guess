@@ -295,3 +295,17 @@ Main public action:
 (guess u42)
 ```
 <!-- rep-readme-usage: 1776550808126 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
