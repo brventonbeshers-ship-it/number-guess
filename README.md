@@ -264,3 +264,11 @@ Publish from the embedded SDK folder:
 ```powershell
 npm --prefix sdk publish --access public
 ```
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
+<!-- rep-readme-note: 1776494811513 -->
