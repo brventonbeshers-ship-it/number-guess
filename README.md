@@ -250,3 +250,5 @@ npm --prefix sdk publish --access public
 - Frontend runs from `frontend/`
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-note: 1776480714099 -->
+<!-- rep-readme-usage: 1776480720629 -->
