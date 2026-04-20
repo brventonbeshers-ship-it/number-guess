@@ -669,3 +669,8 @@ button:disabled {
 /* rep-globals-surface: 1776673177542 */
 /* rep-globals-particles: 1776673244982 */
 /* rep-globals-focus: 1776673320209 */
+/* panel outline */
+.panel-outline {
+  border: 1px solid rgba(121, 242, 192, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
