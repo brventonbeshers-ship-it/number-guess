@@ -257,3 +257,7 @@ Every read-only helper accepts an optional config override with custom contract 
 - `getUserLastGuess(address)`
 - `getUserLastTarget(address)`
 - `createGuessCall(value)`
+<!-- rep-sdk-readme: 1776702324556 -->
+## Custom Config
+
+Every read-only helper accepts an optional config override with custom contract address, contract name, api base, and network.
