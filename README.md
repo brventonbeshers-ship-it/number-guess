@@ -372,3 +372,11 @@ Main public action:
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-note: 1776673327698 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
+<!-- rep-readme-usage: 1776673385867 -->
