@@ -394,3 +394,10 @@ Main public action:
 ```clar
 (guess u42)
 ```
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
