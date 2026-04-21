@@ -464,3 +464,10 @@ Publish from the embedded SDK folder:
 npm --prefix sdk publish --access public
 ```
 <!-- rep-readme-note: 1776782217374 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
