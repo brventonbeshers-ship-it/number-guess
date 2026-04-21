@@ -443,3 +443,10 @@ Main public action:
 ```clar
 (guess u42)
 ```
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
