@@ -550,3 +550,10 @@ Main public action:
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1776877592093 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
