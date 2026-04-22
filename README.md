@@ -549,3 +549,4 @@ Main public action:
 - Frontend runs from `frontend/`
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-usage: 1776877592093 -->
