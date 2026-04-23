@@ -366,3 +366,12 @@ Every read-only helper accepts an optional config override with custom contract 
 
 Every read-only helper accepts an optional config override with custom contract address, contract name, api base, and network.
 <!-- rep-sdk-readme: 1776940030630 -->
+## Core Methods
+
+- `getTotalGuesses()`
+- `getTotalWins()`
+- `getUserGuesses(address)`
+- `getUserWins(address)`
+- `getUserLastGuess(address)`
+- `getUserLastTarget(address)`
+- `createGuessCall(value)`
