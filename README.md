@@ -606,3 +606,10 @@ Main public action:
 (guess u42)
 ```
 <!-- rep-readme-note: 1776963511685 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
