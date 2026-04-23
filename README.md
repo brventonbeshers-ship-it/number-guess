@@ -583,3 +583,12 @@ Main public action:
 - Frontend runs from `frontend/`
 - Publishable SDK lives in `sdk/`
 - Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-note: 1776940099621 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
+<!-- rep-readme-usage: 1776940110390 -->
