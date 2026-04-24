@@ -1014,3 +1014,7 @@ button:disabled {
 /* rep-globals-focus: 1777038268255 */
 /* rep-globals-particles: 1777038280042 */
 /* rep-globals-surface: 1777067312280 */
+/* guess field glow */
+.guess-field-glow {
+  box-shadow: 0 0 0 1px rgba(121, 242, 192, 0.18), 0 0 24px rgba(121, 242, 192, 0.14);
+}
