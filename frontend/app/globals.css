@@ -973,3 +973,8 @@ button:disabled {
   pointer-events: none;
 }
 /* rep-globals-particles: 1777002393118 */
+/* panel outline */
+.panel-outline {
+  border: 1px solid rgba(121, 242, 192, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
