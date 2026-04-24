@@ -168,3 +168,4 @@ export async function sendGuess(value: number) {
 // rep-stacks-lib-wallet: 1777002627652
 // rep-stacks-lib: 1777025829848
 // rep-stacks-lib-refresh: 1777025903485
+// rep-stacks-lib-wallet: 1777025987231
