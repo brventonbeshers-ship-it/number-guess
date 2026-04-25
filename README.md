@@ -693,3 +693,9 @@ Main public action:
 (guess u42)
 ```
 <!-- rep-readme-note: 1777104448157 -->
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- Publishable SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
+<!-- rep-readme-usage: 1777104511906 -->
