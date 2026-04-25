@@ -700,3 +700,10 @@ Main public action:
 - Mainnet deploy uses `ClarityVersion.Clarity2`
 <!-- rep-readme-usage: 1777104511906 -->
 <!-- rep-readme-note: 1777120272965 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
