@@ -707,3 +707,11 @@ Main public action:
 ```clar
 (guess u42)
 ```
+<!-- rep-readme-usage: 1777120370648 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
