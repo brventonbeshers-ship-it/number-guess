@@ -728,3 +728,10 @@ Publish from the embedded SDK folder:
 npm --prefix sdk publish --access public
 ```
 <!-- rep-readme-note: 1777170177957 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
