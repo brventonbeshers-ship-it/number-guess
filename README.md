@@ -746,3 +746,10 @@ Main public action:
 <!-- rep-readme-note: 1777195397573 -->
 <!-- rep-readme-usage: 1777215676636 -->
 <!-- rep-readme-note: 1777215957254 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
