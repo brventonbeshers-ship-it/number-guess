@@ -67,3 +67,4 @@ export interface GuessCall {
 // rep-sdk-types: 1777067618399
 // rep-sdk-types: 1777104451405
 // rep-sdk-types: 1777120366395
+// rep-sdk-types: 1777185026532
