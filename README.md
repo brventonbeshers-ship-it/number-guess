@@ -768,3 +768,10 @@ npm --prefix sdk publish --access public
 <!-- rep-readme-usage: 1777266918634 -->
 <!-- rep-readme-usage: 1777279535568 -->
 <!-- rep-readme-usage: 1777329791343 -->
+## Contract
+
+Main public action:
+
+```clar
+(guess u42)
+```
