@@ -1,6 +1,6 @@
 {
   "name": "number-guess-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "TypeScript SDK for interacting with the Number Guess smart contract on Stacks blockchain",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
