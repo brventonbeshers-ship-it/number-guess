@@ -815,3 +815,10 @@ Main public action:
 <!-- rep-readme-note: 1777701065328 -->
 <!-- rep-readme-usage: 1777721057281 -->
 <!-- rep-readme-note: 1777721229886 -->
+## SDK Publish
+
+Publish from the embedded SDK folder:
+
+```powershell
+npm --prefix sdk publish --access public
+```
