@@ -806,3 +806,8 @@ Main public action:
 ```
 <!-- rep-readme-note: 1777614368289 -->
 <!-- rep-readme-note: 1777657837075 -->
+## Dev Notes
+
+- Frontend runs from `frontend/`
+- Publishable SDK lives in `sdk/`
+- Mainnet deploy uses `ClarityVersion.Clarity2`
